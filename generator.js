@@ -5,8 +5,8 @@ const UPPER = new Array( 26 ).fill( 1 ).map( ( _, i ) => String.fromCharCode( 97
 const NUMS = new Array( 10 ).fill( 1 ).map( ( _, i ) => i);
 
 const CODE_LENGTH = 8;
-const ROWS = 22;
-const COLUMNS = 5;
+const ROWS = 10;
+const COLUMNS = 4;
 
 const ALL_CHARS = [...LOWER, ...UPPER, ...NUMS];
 
